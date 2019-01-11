@@ -1,0 +1,244 @@
+body{
+    background: #000;
+}
+.navbar-inverse {
+    background-color: #222;
+    padding: 18px;
+}
+.navbar{
+    border-radius: 0;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-left: 1px solid #9d9d9d26;
+}
+
+
+
+
+.action{
+
+    text-align: center;
+    width: 100%;
+    /*margin: 120px auto;*/
+    background: #020202;
+    padding: 100px;
+}
+
+.action > a{
+
+    padding: 20px 100px;
+    font-weight: 900;
+    border-radius: 2px;
+    color: #8e8686;
+    font-size: 18px;
+    border: 1px solid #8e8686;
+    font-family: 'Open Sans', sans-serif;
+}
+.action > a:hover{
+    text-decoration: none;
+    background: #000;
+    transition: 0.5s linear 0s;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+
+.action a:first-child{
+    margin-right: 30px;
+}
+
+
+.social-container{
+    text-align: center;
+}
+
+.social-container ul {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    width: 170px;
+}
+
+.social-container ul li{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #565858;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+}
+
+.social-container ul li i{
+    font-size: 15px;
+}
+
+.social-container ul li a{
+    color: #575858;
+}
+
+.social-container h3{
+    border-bottom: 1px solid #343535;
+    padding-bottom: 20px;
+    color: #575858;
+}
+ul li{
+    list-style-type: none;
+}
+
+.learner{
+    text-align: center;
+}
+
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #736d6e;
+    background-color: #232322;
+}
+
+
+
+
+.dropdown-menu {
+    background-color: #736e6f;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-left: 1px solid #736d6e42;
+}
+
+.dropdown-menu:before{
+    content: ' ';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -6px;
+    right: 10px;
+    /* z-index: -19; */
+    border-top: 10px solid #736d6e;
+    border-right: 10px solid #736d6e;
+    transform: rotate(-49deg);
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #262626;
+    text-decoration: none;
+    background: none;
+}
+
+.dropdown-menu li{
+    padding: 10px;
+}
+
+
+.dropdown-menu li a{
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.my_form{
+    background: #040404;
+    padding: 40px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 60px;
+    border-radius: 2px;
+}
+
+
+.my_form .form-control{
+    border: 1px solid #ffffff3b;
+    border-radius: 2px;
+    /* padding: 27px; */
+    height: 53px;
+    outline: none;
+    background: #040404;
+    font-weight: 100;
+}
+
+.my_form .row{
+    margin-top: 20px;
+}
+
+
+.my_form .form-control:focus {
+    border-color: #66afe9;
+    outline: none;
+    box-shadow: none;
+}
+
+.my_form .btn-submit{
+    background: #f9f9f9e0;
+    color: #000;
+    padding: 17px;
+    border: 1px solid #000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.my_form .btn-submit:hover{
+    color: #000;
+    background-color: #c3c4c5;
+    border-color: #505152;
+}
+
+.my_form p{
+    color: #d41111a6;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.site-aim{
+    margin-top: 20%;
+}
+
+.site-aim h1{
+    font-size: 70px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    color: #736f6f;
+    line-height: 69px;
+}
+
+.site-aim p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: #736f6f;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 38px;
+}
+
+
+.newsletter{
+    max-width: 300px;
+    position: fixed;
+    top: 52%;
+    transform: rotate(90deg);
+    left: -107px;
+}
+
+.newsletter .form-control ,.btn{
+    border-radius: 0;
+}
+
+.newsletter input[type="email"]{
+    width: 150px;
+    float: left;
+    background: #232322;
+}
+
+
+.newsletter input[type="submit"]{
+    width: 100px;
+    float: left;
+    background: #a79d9d;
+}

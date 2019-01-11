@@ -1,0 +1,50 @@
+.about{
+    background: #fff;
+    padding: 30px;
+    margin: 50px auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about h1{
+
+}
+
+.about p{
+    line-height: 30px;
+    font-size: 20px;
+    margin: 31px;
+}
+
+.about .founder{
+    text-align: center;
+}
+
+
+.about .founder p{
+    font-weight: bold;  
+}
+
+
+.about img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    text-align: center;
+    margin: 0px auto;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .about{
+
+        padding: 5px;
+
+    }
+    
+    .about .founder p{
+       font-size: 15px;
+      
+    }
+
+}
